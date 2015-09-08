@@ -8,3 +8,13 @@
 #define STDLIB_H
 #endif
 
+typedef struct tipo_nodo{
+  
+  int dato;
+  int distancia_inicio;
+  int tiempo_d;
+  int tienpo_t;
+  
+}
+
+
