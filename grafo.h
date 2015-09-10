@@ -9,6 +9,33 @@
 #define STDLIB_H
 #endif
 
+typedef struct Tnodo{
+
+	char color;
+	int nombre, distancia , tiempo_d ,tiempo_f;
+struct Tnodo *padre;
+}nodo
+	
+iniciar_nodo(char nombre)
+{
+
+	nodo modificador;
+	modifocador.distancia = modifocador.tiempo_d = modifocador.tiempo_f =0;
+	modifocador.color="b";
+	modificador.padre=NULL;
+	return modificador; 
+	
+}
+void iniciar_arreglo_nodos( nodo arreglo_nodos[8])
+{
+	int i =0;	
+	for(i=0;i<8;i++)
+	{
+		arreglo_nodos[i] = iniciar_nodo(nombre)
+		nodo.nombre=i;
+	}	
+}	
+
 int vector[8]={1,2,3,4,5,6,7,8};
 int i=0,j=0;
 for(i=0;i<8;i++){
